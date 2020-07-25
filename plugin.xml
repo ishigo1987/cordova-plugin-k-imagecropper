@@ -31,7 +31,7 @@
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" android:theme="@style/AppTheme"/>
+            <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" android:theme="app/src/main/res/values/style.xml"/>
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/*">
